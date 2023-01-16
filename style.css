@@ -1,0 +1,23 @@
+.game {
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+}
+.gamecontainer {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding: 30px;
+  margin: 0px 430px;
+  font-size: 40px;
+}
+.turn {
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+#result {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 2px;
+}
